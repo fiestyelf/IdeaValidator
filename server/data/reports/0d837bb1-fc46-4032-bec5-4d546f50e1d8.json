@@ -1,0 +1,148 @@
+{
+  "id": "0d837bb1-fc46-4032-bec5-4d546f50e1d8",
+  "data": {
+    "overallScore": 35,
+    "marketDemandScore": 45,
+    "competitiveScore": 20,
+    "feasibilityScore": 65,
+    "monetizationScore": 30,
+    "founderFitScore": 40,
+    "timingScore": 25,
+    "executiveSummary": "A LinkedIn-style platform connecting emerging artists with music labels faces severe challenges in the already saturated music industry networking space. Major competitors like SoundCloud, SubmitHub, and ReverbNation already dominate this niche with established networks. The chicken-and-egg problem of attracting both labels and artists simultaneously makes this a no-go without significant industry connections or capital.",
+    "pivotSuggestions": [
+      "Focus on micro-labels and indie publishers first with a specialized A&R tools suite",
+      "Build an AI-powered talent scoring system for labels to evaluate artists",
+      "Create a marketplace for song licensing and beats instead of label connections"
+    ],
+    "avgSubscriptionPrice": "$29/mo for artists, $199/mo for labels",
+    "opportunities": [
+      "Integration with streaming analytics APIs to provide verified performance metrics",
+      "Automated song analysis tools to match artist style with label preferences",
+      "Focus on emerging markets where major platforms have less penetration",
+      "Build specialized tools for genre-specific A&R workflows"
+    ],
+    "risks": [
+      "Extremely high CAC due to fragmented artist market and expensive music industry advertising",
+      "Labels already have established talent scouting networks and systems",
+      "High churn rate as successful artists won't need the platform anymore",
+      "Network effect barrier - labels won't join without artists, artists won't pay without labels",
+      "Most artists can't afford recurring subscriptions"
+    ],
+    "regulatoryAndAiRisk": {
+      "complianceBurden": "Medium - Music licensing and rights management complexity",
+      "aiTakeoverRisk": "Medium - AI could automate talent scouting",
+      "details": "Music industry regulations around licensing and rights management could create significant compliance overhead."
+    },
+    "competitors": [
+      {
+        "name": "SubmitHub",
+        "estimatedDA": 72,
+        "trafficTier": "High",
+        "pricingModel": "Usage-based",
+        "keyWeakness": "High rejection rates and poor feedback quality",
+        "featureGaps": [
+          "No analytics integration",
+          "Limited label-side tools"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "ReverbNation",
+        "estimatedDA": 85,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Dated platform with spam reputation",
+        "featureGaps": [
+          "Modern UI/UX",
+          "Quality control"
+        ],
+        "threatLevel": "Medium"
+      },
+      {
+        "name": "SoundCloud",
+        "estimatedDA": 93,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Not focused on label connections",
+        "featureGaps": [
+          "Direct label submission tools",
+          "Professional A&R features"
+        ],
+        "threatLevel": "High"
+      }
+    ],
+    "dimensionExplanations": {
+      "marketDemand": "While there's constant demand from artists seeking label connections, willingness to pay is low due to artists' typically limited budgets and existing free alternatives. Labels already have established scouting systems.",
+      "competitiveIntensity": "The space is extremely crowded with well-funded incumbents who have strong network effects. Breaking in would require massive marketing spend or unique industry connections.",
+      "technicalFeasibility": "Basic platform is straightforward to build, but scaling with proper audio handling, analytics, and rights management adds complexity.",
+      "monetizationClarity": "Dual-sided marketplace is challenging to monetize. Artists are price sensitive, and labels won't pay without quality control.",
+      "founderFit": "Success requires deep music industry connections and experience with two-sided marketplaces, which is rare for solo developers.",
+      "timing": "Market is mature with established players. No clear technological or regulatory catalyst for disruption."
+    },
+    "opportunityGapSummary": "The only viable entry point would be building superior A&R tools focused on data analytics and AI-powered talent scoring, targeting mid-sized labels first. Direct competition with existing networks is likely to fail.",
+    "keyMetrics": {
+      "monthlySearchVolume": "8.5K",
+      "numCompetitors": 12,
+      "avgCompetitorDA": 75,
+      "trendDirection": "→ Stagnant",
+      "timeToMVP": "4 months"
+    },
+    "marketSizing": {
+      "tam": "$2.5B",
+      "sam": "$300M",
+      "som": "$5M",
+      "sourceLogic": "Based on number of active artists seeking label deals (~500K) multiplied by average annual subscription spend, with realistic market capture assumptions."
+    },
+    "trendRadar": {
+      "status": "Plateauing",
+      "monthlyData": [
+        65,
+        68,
+        70,
+        67,
+        65,
+        63,
+        64,
+        65,
+        66,
+        64,
+        63,
+        62
+      ]
+    },
+    "evidencePoints": {
+      "marketDemand": [
+        "Over 500,000 active artists on SoundCloud",
+        "Major labels signed only 658 new artists in 2022",
+        "Average unsigned artist spends $500-1000 annually on promotion"
+      ],
+      "competitiveIntensity": [
+        "SubmitHub processes over 10,000 submissions daily",
+        "ReverbNation has over 3.5 million users",
+        "Existing platforms have 10+ years of network effects"
+      ],
+      "technicalFeasibility": [
+        "Basic MVP requires standard social networking features",
+        "Audio file handling and streaming adds complexity",
+        "Integration with multiple streaming platforms needed"
+      ],
+      "monetizationClarity": [
+        "SubmitHub charges $1-2 per submission",
+        "Average artist lifetime value under $100",
+        "Label acquisition costs extremely high"
+      ],
+      "founderFit": [
+        "Requires music industry relationships",
+        "Network effect building experience needed",
+        "Complex rights management knowledge required"
+      ],
+      "timing": [
+        "No major industry shifts disrupting existing platforms",
+        "Label scouting increasingly data-driven",
+        "Blockchain/NFT hype cooling in music industry"
+      ]
+    }
+  },
+  "idea": "i want to create an app where i want to connect upcoming artist to big music labels in a subscription model. basically linkdin for music artists",
+  "timestamp": "2026-03-26T21:08:01.390Z"
+}

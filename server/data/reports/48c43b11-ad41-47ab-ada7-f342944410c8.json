@@ -1,0 +1,138 @@
+{
+  "id": "48c43b11-ad41-47ab-ada7-f342944410c8",
+  "data": {
+    "overallScore": 35,
+    "marketDemandScore": 75,
+    "competitiveScore": 20,
+    "feasibilityScore": 65,
+    "monetizationScore": 40,
+    "founderFitScore": 60,
+    "timingScore": 45,
+    "executiveSummary": "AI-powered note summarization is a crowded space with established players like Notion AI, Evernote, and numerous startups already offering similar capabilities. While there's clear market demand for better knowledge management, the lack of unique differentiation and high CAC in a consumer market make this a challenging venture. Verdict: No-go without significant pivot.",
+    "pivotSuggestions": [
+      "Focus on specialized vertical (e.g., medical students' clinical notes)",
+      "Build for enterprise teams with compliance/audit requirements",
+      "Target researchers with citation/reference management integration"
+    ],
+    "avgSubscriptionPrice": "$8/mo",
+    "opportunities": [
+      "Integration with popular LMS platforms like Canvas and Blackboard",
+      "OCR + AI for handwritten notes (specific to medical/engineering fields)",
+      "Collaborative study group features with shared annotation",
+      "API platform for education technology vendors",
+      "Chrome extension for direct webpage summarization"
+    ],
+    "risks": [
+      "Notion AI and other major players can easily replicate features",
+      "High CAC (>$100) in consumer education market with low LTV",
+      "OpenAI API costs make unit economics challenging at consumer price points",
+      "Retention issues as users graduate or change jobs",
+      "Platform risk from AI providers (OpenAI, Anthropic) offering direct solutions"
+    ],
+    "regulatoryAndAiRisk": {
+      "complianceBurden": "Medium - Student data privacy (FERPA) concerns",
+      "aiTakeoverRisk": "High - Core feature set likely to be native in Microsoft/Google products",
+      "details": "Major platforms like Microsoft (OneNote) and Google (Docs) are rapidly incorporating AI summarization features, threatening independent apps."
+    },
+    "competitors": [
+      {
+        "name": "Notion AI",
+        "estimatedDA": 89,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "AI features require premium subscription and lack specialized education focus",
+        "featureGaps": [
+          "Offline mode",
+          "Direct LMS integration",
+          "Citation management"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "Evernote",
+        "estimatedDA": 92,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Aging infrastructure and limited AI capabilities",
+        "featureGaps": [
+          "Modern AI integration",
+          "Real-time collaboration"
+        ],
+        "threatLevel": "Medium"
+      }
+    ],
+    "dimensionExplanations": {
+      "marketDemand": "Note-taking and knowledge management is a universal need with clear pain points. However, willingness to pay is low among students, and professionals often have corporate solutions.",
+      "competitiveIntensity": "Market is saturated with both established players and new AI-first startups. Differentiation is extremely difficult and expensive.",
+      "technicalFeasibility": "Core MVP is straightforward with AI APIs, but building reliable topic organization and maintaining accuracy is complex.",
+      "monetizationClarity": "Consumer education market has proven price sensitivity. Enterprise sales require significant feature development.",
+      "founderFit": "Standard full-stack development skills sufficient for MVP, but growth requires deep education sector expertise.",
+      "timing": "AI summarization is rapidly becoming commoditized. Window of opportunity for basic features is closing."
+    },
+    "opportunityGapSummary": "Success requires focusing on underserved verticals with specific workflows (e.g., medical residency notes) rather than competing in the general note-taking space. Integration with existing education platforms could provide distribution advantage.",
+    "keyMetrics": {
+      "monthlySearchVolume": "245K",
+      "numCompetitors": 15,
+      "avgCompetitorDA": 75,
+      "trendDirection": "→ Stagnant",
+      "timeToMVP": "6 weeks"
+    },
+    "marketSizing": {
+      "tam": "$15B",
+      "sam": "$3B",
+      "som": "$50M",
+      "sourceLogic": "Based on global student population (200M), professional knowledge workers (400M), and typical SaaS education tool penetration rates."
+    },
+    "trendRadar": {
+      "status": "Plateauing",
+      "monthlyData": [
+        65,
+        68,
+        70,
+        72,
+        71,
+        70,
+        69,
+        70,
+        71,
+        70,
+        69,
+        68
+      ]
+    },
+    "evidencePoints": {
+      "marketDemand": [
+        "245K monthly searches for 'note taking app'",
+        "Notion reached $10B valuation",
+        "Students spend 5+ hours/week on note organization"
+      ],
+      "competitiveIntensity": [
+        "15+ direct competitors with AI features",
+        "Major platforms adding native AI summarization",
+        "Rising CAC in education technology space"
+      ],
+      "technicalFeasibility": [
+        "Available AI APIs for core functionality",
+        "Existing open-source topic modeling libraries",
+        "Standard OAuth integration patterns"
+      ],
+      "monetizationClarity": [
+        "Average education app subscription $5-15/month",
+        "60% student price sensitivity to paid features",
+        "High churn rates in academic calendar"
+      ],
+      "founderFit": [
+        "Standard web/mobile stack sufficient for MVP",
+        "No specialized AI expertise required initially",
+        "Education sales experience valuable but missing"
+      ],
+      "timing": [
+        "AI summarization becoming commoditized",
+        "Education budgets tightening",
+        "Platform AI features expanding rapidly"
+      ]
+    }
+  },
+  "idea": "Create an app that summarizes notes using AI and organizes them by topic. Context: Knowledge capture for students and professionals",
+  "timestamp": "2026-03-26T16:27:22.076Z"
+}

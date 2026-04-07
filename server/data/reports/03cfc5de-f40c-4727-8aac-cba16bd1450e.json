@@ -1,0 +1,149 @@
+{
+  "id": "03cfc5de-f40c-4727-8aac-cba16bd1450e",
+  "data": {
+    "overallScore": 35,
+    "marketDemandScore": 75,
+    "competitiveScore": 20,
+    "feasibilityScore": 30,
+    "monetizationScore": 25,
+    "founderFitScore": 15,
+    "timingScore": 45,
+    "executiveSummary": "A symptom checker app enters an oversaturated market dominated by WebMD, Mayo Clinic, and Ada Health, with significant liability concerns and FDA regulatory hurdles. While consumer demand for health information is massive, the lack of clear differentiation and high medical/legal risks make this a dangerous venture. Verdict: No-go.",
+    "pivotSuggestions": [
+      "Focus on specific chronic condition management (e.g., migraine tracking)",
+      "Build for healthcare providers as primary users instead of consumers",
+      "Pivot to wellness/lifestyle guidance without medical diagnosis"
+    ],
+    "avgSubscriptionPrice": "$4.99/mo",
+    "opportunities": [
+      "Integration with wearable devices for symptom correlation",
+      "Focus on underserved international markets with limited healthcare access",
+      "Partner with telemedicine providers for direct care handoff",
+      "Specialize in pediatric symptom assessment for parents",
+      "Build API for healthcare systems to white-label"
+    ],
+    "risks": [
+      "Massive liability exposure from incorrect diagnosis suggestions",
+      "FDA regulation likely requires lengthy approval process",
+      "Tech giants (Apple, Google) could easily replicate features",
+      "Medical accuracy requires expensive expert consultation",
+      "Users default to Google search out of habit"
+    ],
+    "regulatoryAndAiRisk": {
+      "complianceBurden": "High - FDA clearance and HIPAA compliance required",
+      "aiTakeoverRisk": "High - Major tech companies developing health AI",
+      "details": "FDA considers symptom checkers as medical devices requiring clearance, while companies like Google and Apple are investing heavily in health AI."
+    },
+    "competitors": [
+      {
+        "name": "WebMD",
+        "estimatedDA": 92,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Outdated user interface and excessive ads",
+        "featureGaps": [
+          "Real-time monitoring",
+          "Personalized tracking"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "Ada Health",
+        "estimatedDA": 76,
+        "trafficTier": "Medium",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Limited integration with healthcare providers",
+        "featureGaps": [
+          "Wearable integration",
+          "Family accounts"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "K Health",
+        "estimatedDA": 68,
+        "trafficTier": "Medium",
+        "pricingModel": "Paid",
+        "keyWeakness": "High customer acquisition costs",
+        "featureGaps": [
+          "Chronic condition tracking",
+          "Mental health"
+        ],
+        "threatLevel": "Medium"
+      }
+    ],
+    "dimensionExplanations": {
+      "marketDemand": "Health information seeking is universal and frequent, with over 80% of internet users searching for health information online. However, most users prefer free resources.",
+      "competitiveIntensity": "Market is dominated by established players with strong brand recognition and deep pockets. Breaking through requires massive marketing spend.",
+      "technicalFeasibility": "Building accurate symptom assessment requires complex medical knowledge graphs and extensive validation. AI model training needs massive, clean datasets.",
+      "monetizationClarity": "Users expect health information to be free, making monetization challenging. Subscription model faces high churn.",
+      "founderFit": "Solo developer lacks medical expertise and regulatory experience crucial for health tech. Medical advisory board needed.",
+      "timing": "While digital health is growing, major players are already established and regulation is tightening."
+    },
+    "opportunityGapSummary": "The best entry point would be focusing on a specific medical condition or demographic underserved by current solutions, then expanding from that beachhead. Direct consumer play is too risky and expensive.",
+    "keyMetrics": {
+      "monthlySearchVolume": "Very High",
+      "numCompetitors": 15,
+      "avgCompetitorDA": 70,
+      "trendDirection": "→ Stagnant",
+      "timeToMVP": "6 months"
+    },
+    "marketSizing": {
+      "tam": "$20B",
+      "sam": "$5B",
+      "som": "$50M",
+      "sourceLogic": "Based on digital health market size and symptom checker segment estimates from Rock Health reports."
+    },
+    "trendRadar": {
+      "status": "Plateauing",
+      "monthlyData": [
+        85,
+        82,
+        80,
+        83,
+        85,
+        84,
+        82,
+        81,
+        83,
+        82,
+        80,
+        81
+      ]
+    },
+    "evidencePoints": {
+      "marketDemand": [
+        "7 in 10 adults use online health resources",
+        "80% of internet users search for health information",
+        "Digital health market growing 15% annually"
+      ],
+      "competitiveIntensity": [
+        "WebMD receives 100M+ monthly visits",
+        "Ada Health raised $190M in funding",
+        "Apple and Google developing health features"
+      ],
+      "technicalFeasibility": [
+        "Medical knowledge graph requires 50K+ symptom relationships",
+        "FDA clearance typically takes 6-12 months",
+        "Requires ongoing medical review board"
+      ],
+      "monetizationClarity": [
+        "Average health app subscription is $4.99/month",
+        "Medical information sites see 90%+ bounce rates",
+        "Ad revenue averages $2 CPM for health content"
+      ],
+      "founderFit": [
+        "No medical background increases liability risk",
+        "Regulatory compliance requires specialized knowledge",
+        "Enterprise sales needed for B2B pivot"
+      ],
+      "timing": [
+        "Symptom checker apps peaked in 2020-2021",
+        "FDA increasing oversight of health apps",
+        "Tech giants expanding healthcare initiatives"
+      ]
+    }
+  },
+  "idea": "Create an app that analyzes user-reported symptoms and provides possible conditions and recommended care steps. Context: Consumer health self-assessment and guidance. ",
+  "timestamp": "2026-03-26T10:41:28.100Z"
+}

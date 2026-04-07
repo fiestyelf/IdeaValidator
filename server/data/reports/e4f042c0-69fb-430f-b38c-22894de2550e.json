@@ -1,0 +1,149 @@
+{
+  "id": "e4f042c0-69fb-430f-b38c-22894de2550e",
+  "data": {
+    "overallScore": 35,
+    "marketDemandScore": 65,
+    "competitiveScore": 20,
+    "feasibilityScore": 45,
+    "monetizationScore": 40,
+    "founderFitScore": 30,
+    "timingScore": 25,
+    "executiveSummary": "AI fitness coaching enters an oversaturated market dominated by well-funded players like Future ($75M raised), Freeletics ($70M), and Fitbod. While the market is large, CAC is prohibitively expensive ($150-300) and retention is poor (40-60% annual churn). Verdict: No-go unless targeting an extremely specific underserved niche.",
+    "pivotSuggestions": [
+      "AI-powered physical therapy and injury prevention for amateur athletes",
+      "Corporate wellness platform with team-based AI coaching",
+      "Specialized fitness AI for pregnant/postpartum women"
+    ],
+    "avgSubscriptionPrice": "$15/mo",
+    "opportunities": [
+      "Integration with Strava API for runners/cyclists could provide organic distribution",
+      "Workplace wellness programs offer B2B2C distribution channel",
+      "Partner with boutique gym chains lacking digital offerings",
+      "Target specific conditions (e.g., lower back pain) for medical referrals",
+      "Build community features around specific sports/activities"
+    ],
+    "risks": [
+      "Extremely high CAC ($150+ per user) in fitness app marketplace",
+      "Low retention - most fitness apps see 80% drop-off within 2 months",
+      "Major players (Peloton, Apple Fitness+) have massive content budgets",
+      "AI coaching still can't match human trainers for form correction",
+      "App Store policies limit subscription pricing power"
+    ],
+    "regulatoryAndAiRisk": {
+      "complianceBurden": "Medium - Liability concerns for exercise guidance",
+      "aiTakeoverRisk": "High - Apple/Google likely to add AI coaching natively",
+      "details": "Major platforms could easily implement AI coaching features, while liability for AI-generated exercise advice remains murky."
+    },
+    "competitors": [
+      {
+        "name": "Future",
+        "estimatedDA": 72,
+        "trafficTier": "High",
+        "pricingModel": "Paid",
+        "keyWeakness": "High price point ($150/mo) limits mass market adoption",
+        "featureGaps": [
+          "Real-time form correction",
+          "Equipment-free workouts"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "Fitbod",
+        "estimatedDA": 65,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Limited personalization and progress tracking",
+        "featureGaps": [
+          "Live feedback",
+          "Social features"
+        ],
+        "threatLevel": "Medium"
+      },
+      {
+        "name": "Apple Fitness+",
+        "estimatedDA": 95,
+        "trafficTier": "High",
+        "pricingModel": "Paid",
+        "keyWeakness": "Requires Apple Watch and ecosystem lock-in",
+        "featureGaps": [
+          "Personalized programming",
+          "Community features"
+        ],
+        "threatLevel": "High"
+      }
+    ],
+    "dimensionExplanations": {
+      "marketDemand": "Global fitness app market is $14.7B (2023) but extremely fragmented. User acquisition costs have risen 300% since 2019 due to iOS privacy changes and increased competition.",
+      "competitiveIntensity": "Oversaturated market with 50+ well-funded players and platform risks from Apple/Google. No clear moat potential beyond brand/community.",
+      "technicalFeasibility": "Core MVP is achievable in 3-4 months, but effective AI form correction requires significant R&D and data collection.",
+      "monetizationClarity": "Standard subscription model but high churn (60%+ annually) requires aggressive pricing to achieve positive LTV/CAC.",
+      "founderFit": "Requires deep expertise in fitness programming, ML deployment, and content production - challenging for solo founder.",
+      "timing": "Market maturity and iOS privacy changes make this a particularly challenging time for fitness app growth."
+    },
+    "opportunityGapSummary": "Success requires targeting underserved niches with specific pain points (e.g., postpartum, injury recovery) where AI can provide unique value and word-of-mouth distribution. Mass market approach is suicide given CAC dynamics.",
+    "keyMetrics": {
+      "monthlySearchVolume": "450K",
+      "numCompetitors": 50,
+      "avgCompetitorDA": 60,
+      "trendDirection": "→ Stagnant",
+      "timeToMVP": "4 months"
+    },
+    "marketSizing": {
+      "tam": "$14.7B",
+      "sam": "$3B",
+      "som": "$25M",
+      "sourceLogic": "TAM based on global fitness app market, SAM focuses on premium segment, SOM assumes 1% capture of premium market given competition."
+    },
+    "trendRadar": {
+      "status": "Plateauing",
+      "monthlyData": [
+        85,
+        82,
+        80,
+        78,
+        75,
+        73,
+        75,
+        77,
+        75,
+        73,
+        72,
+        70
+      ]
+    },
+    "evidencePoints": {
+      "marketDemand": [
+        "Global fitness app downloads grew 46% in 2020 but plateaued since",
+        "87% of users prefer hybrid (digital + in-person) fitness solutions",
+        "Average fitness app user retention is 29% after 90 days"
+      ],
+      "competitiveIntensity": [
+        "Top 10 fitness apps capture 87% of revenue",
+        "iOS privacy changes increased CAC by 200-300%",
+        "Major platforms investing heavily in fitness features"
+      ],
+      "technicalFeasibility": [
+        "Form correction requires sophisticated computer vision",
+        "Existing pose estimation APIs have 15-20% error rate",
+        "Content creation needs significant ongoing investment"
+      ],
+      "monetizationClarity": [
+        "Industry average LTV of $120-150",
+        "CAC ranges from $150-300 per paid user",
+        "Churn rates 40-60% annually"
+      ],
+      "founderFit": [
+        "Requires ML expertise for pose estimation",
+        "Content production needs fitness certification",
+        "Community management crucial for retention"
+      ],
+      "timing": [
+        "Post-COVID fitness app fatigue",
+        "Rising CAC due to privacy changes",
+        "Platform consolidation phase"
+      ]
+    }
+  },
+  "idea": "AI-powered fitness coaching app",
+  "timestamp": "2026-03-26T12:15:51.554Z"
+}

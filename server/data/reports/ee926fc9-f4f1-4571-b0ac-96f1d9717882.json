@@ -1,0 +1,137 @@
+{
+  "id": "ee926fc9-f4f1-4571-b0ac-96f1d9717882",
+  "data": {
+    "overallScore": 25,
+    "marketDemandScore": 65,
+    "competitiveScore": 15,
+    "feasibilityScore": 20,
+    "monetizationScore": 30,
+    "founderFitScore": 15,
+    "timingScore": 40,
+    "executiveSummary": "A symptom checker app faces overwhelming competition from WebMD, Mayo Clinic, K Health, and Ada Health, plus regulatory/liability concerns. The market is saturated with well-funded players and free alternatives. Critical liability and medical validation requirements make this nearly impossible for a solo founder. Verdict: No-go.",
+    "pivotSuggestions": [
+      "Focus on niche conditions (e.g., dermatology AI analysis)",
+      "Build B2B tools for medical practices",
+      "Create content platform for rare disease communities"
+    ],
+    "avgSubscriptionPrice": "$0-4.99/mo",
+    "opportunities": [
+      "Integration with wearable device data for more accurate assessments",
+      "Focus on underserved international markets with localized content",
+      "Partner with telemedicine providers for direct referrals",
+      "Build API for healthcare providers to white-label the solution",
+      "Target specific chronic condition management"
+    ],
+    "risks": [
+      "Extremely high liability risk requiring expensive medical malpractice insurance",
+      "Need for continuous medical review and validation of all content",
+      "Major players (Apple, Google) could easily replicate and distribute freely",
+      "High CAC due to medical keyword advertising costs ($50+ CPC)",
+      "User trust issues with AI-driven medical advice"
+    ],
+    "regulatoryAndAiRisk": {
+      "complianceBurden": "Very High - FDA, HIPAA, CE Mark required",
+      "aiTakeoverRisk": "High - Major tech companies already building similar solutions",
+      "details": "Medical diagnosis tools require extensive regulatory compliance and face competition from tech giants with superior AI capabilities and data access."
+    },
+    "competitors": [
+      {
+        "name": "WebMD",
+        "estimatedDA": 92,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Overly broad symptom matching leading to anxiety-inducing results",
+        "featureGaps": [
+          "Personalized tracking",
+          "Integration with medical records"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "Ada Health",
+        "estimatedDA": 76,
+        "trafficTier": "Medium",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Limited integration with healthcare providers",
+        "featureGaps": [
+          "Real-time monitoring",
+          "Specialist referrals"
+        ],
+        "threatLevel": "High"
+      }
+    ],
+    "dimensionExplanations": {
+      "marketDemand": "Health symptom checking has massive search volume and clear user need. However, users expect this information for free and are skeptical of paid solutions.",
+      "competitiveIntensity": "Dominated by established players with massive medical content databases and regulatory approval. Enterprise players have deep healthcare system integration.",
+      "technicalFeasibility": "Building a reliable symptom checker requires extensive medical knowledge base, ML training, and continuous medical review. High technical and compliance burden.",
+      "monetizationClarity": "Most users expect health information for free. Premium features have low conversion rates. B2C health apps typically see < 1% paid conversion.",
+      "founderFit": "Solo developer lacks medical expertise, regulatory experience, and healthcare industry connections needed for distribution.",
+      "timing": "Market is mature with established players. No clear technological or regulatory changes creating new opportunities."
+    },
+    "opportunityGapSummary": "The symptom checker market is highly saturated with both free and paid solutions. Any new entrant needs unique distribution (e.g., health system partnerships) or focus on underserved conditions/markets.",
+    "keyMetrics": {
+      "monthlySearchVolume": "2.2M+",
+      "numCompetitors": 15,
+      "avgCompetitorDA": 75,
+      "trendDirection": "→ Stagnant",
+      "timeToMVP": "6-8 months"
+    },
+    "marketSizing": {
+      "tam": "$12B",
+      "sam": "$3B",
+      "som": "$5M",
+      "sourceLogic": "Based on digital health app market size, percentage of users seeking symptom assessment, and typical conversion rates to paid features."
+    },
+    "trendRadar": {
+      "status": "Plateauing",
+      "monthlyData": [
+        85,
+        82,
+        80,
+        83,
+        85,
+        84,
+        82,
+        81,
+        83,
+        82,
+        80,
+        81
+      ]
+    },
+    "evidencePoints": {
+      "marketDemand": [
+        "2.2M+ monthly searches for symptom checker related terms",
+        "47% of Americans google symptoms before seeing doctor",
+        "80% of adults have searched for health information online"
+      ],
+      "competitiveIntensity": [
+        "WebMD receives 127M+ monthly visits",
+        "Ada Health raised $190M+ in funding",
+        "Apple Health app preinstalled on 1B+ devices"
+      ],
+      "technicalFeasibility": [
+        "Requires 10,000+ symptom-condition mappings",
+        "Need ongoing medical review board",
+        "Complex decision tree logic for accurate diagnosis"
+      ],
+      "monetizationClarity": [
+        "Average health app paid conversion < 1%",
+        "Medical keyword CPC $40-100",
+        "Competitor apps mostly free with ads"
+      ],
+      "founderFit": [
+        "No medical background",
+        "No healthcare industry connections",
+        "Limited regulatory compliance experience"
+      ],
+      "timing": [
+        "Market maturity shown by Mayo Clinic symptom checker age",
+        "No major recent innovations in space",
+        "Established player dominance"
+      ]
+    }
+  },
+  "idea": "Create an app that analyzes user-reported symptoms and provides possible conditions and recommended care steps. Context: Consumer health self-assessment and guidance. ",
+  "timestamp": "2026-03-26T14:08:18.426Z"
+}

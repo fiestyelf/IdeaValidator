@@ -1,0 +1,18 @@
+{
+  "name": "projects/3087119646706204728",
+  "projectId": "3087119646706204728",
+  "title": "Business Idea Validator",
+  "visibility": "PRIVATE",
+  "createTime": "2026-03-25T10:07:32.507096Z",
+  "updateTime": "2026-03-26T12:40:00.240392Z",
+  "projectType": "PROJECT_DESIGN",
+  "origin": "STITCH",
+  "deviceType": "DESKTOP",
+  "designTheme": {
+    "colorMode": "DARK",
+    "font": "SPACE_GROTESK",
+    "roundness": "ROUND_FOUR",
+    "customColor": "#00F0FF"
+  },
+  "screens": {}
+}

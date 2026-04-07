@@ -1,0 +1,126 @@
+{
+  "id": "be40336e-1986-4a58-ba6d-1435ad034577",
+  "data": {
+    "overallScore": 35,
+    "marketDemandScore": 30,
+    "competitiveScore": 65,
+    "feasibilityScore": 80,
+    "monetizationScore": 45,
+    "founderFitScore": 50,
+    "timingScore": 40,
+    "executiveSummary": "An idli shop in Germany targets the niche South Indian diaspora and adventurous German foodies, but faces significant challenges in market education and demand generation. While operational execution is straightforward, the limited target market and high restaurant failure rate make this a risky venture. Verdict: No-go unless pivoted to a broader modern Indian concept.",
+    "pivotSuggestions": [
+      "Modern Indian fusion restaurant incorporating idli in creative ways",
+      "Indian breakfast/brunch cafe with broader menu including idlis",
+      "Ghost kitchen serving multiple Indian breakfast items via delivery apps"
+    ],
+    "avgSubscriptionPrice": "€8-10 per meal",
+    "opportunities": [
+      "Partner with local yoga studios and wellness centers to position idli as healthy breakfast",
+      "Create unique fusion varieties mixing German and Indian flavors",
+      "Develop corporate catering program for tech companies with Indian employees",
+      "Launch frozen idli products in local organic supermarkets",
+      "Build weekend breakfast club membership program"
+    ],
+    "risks": [
+      "Very limited awareness of idli among German population requiring heavy education investment",
+      "High operational costs in Germany vs traditional low price point expectations for idli",
+      "Difficulty sourcing authentic ingredients at scale",
+      "Limited market size of South Indian population in target city",
+      "Restaurant sector's notorious 60% failure rate in first year"
+    ],
+    "regulatoryAndAiRisk": {
+      "complianceBurden": "Medium - Standard food service regulations",
+      "aiTakeoverRisk": "Low",
+      "details": "Must comply with German food safety regulations and hygiene standards (HACCP), but no unusual regulatory burden."
+    },
+    "competitors": [
+      {
+        "name": "Local Indian Restaurants",
+        "estimatedDA": 30,
+        "trafficTier": "Low",
+        "pricingModel": "Paid",
+        "keyWeakness": "Usually focus on North Indian cuisine with poor quality South Indian options",
+        "featureGaps": [
+          "Authentic South Indian breakfast",
+          "Fresh idli preparation",
+          "Modern dining experience"
+        ],
+        "threatLevel": "Medium"
+      }
+    ],
+    "dimensionExplanations": {
+      "marketDemand": "Idli has very low awareness in Germany outside the Indian community. While healthy breakfast options are popular, significant marketing investment would be needed to educate the market.",
+      "competitiveIntensity": "While direct idli competition is low, the restaurant space is highly competitive with many breakfast options and Indian restaurants.",
+      "technicalFeasibility": "Relatively straightforward to set up with standard restaurant equipment and processes. Main challenge is consistent quality and ingredient sourcing.",
+      "monetizationClarity": "Traditional low price point of idli conflicts with high German operational costs. Would need significant volume or premium positioning to be profitable.",
+      "founderFit": "Requires deep knowledge of South Indian cuisine, restaurant operations, and German market. Language skills and local connections crucial.",
+      "timing": "Growing interest in healthy, plant-based foods could support launch, but economic headwinds in Germany create restaurant sector risks."
+    },
+    "opportunityGapSummary": "Success depends on repositioning idli as a premium, healthy breakfast option while maintaining authenticity. Focus on building community around South Indian breakfast culture rather than competing directly with existing breakfast options.",
+    "keyMetrics": {
+      "monthlySearchVolume": "Very Low (<100 searches for 'idli' in Germany)",
+      "numCompetitors": 3,
+      "avgCompetitorDA": 25,
+      "trendDirection": "→ Stagnant",
+      "timeToMVP": "3-4 months"
+    },
+    "marketSizing": {
+      "tam": "€500M",
+      "sam": "€50M",
+      "som": "€500K",
+      "sourceLogic": "Based on Indian population in target city, breakfast market size, and estimated capture rate of local food enthusiasts."
+    },
+    "trendRadar": {
+      "status": "Plateauing",
+      "monthlyData": [
+        15,
+        18,
+        20,
+        17,
+        16,
+        15,
+        19,
+        18,
+        16,
+        17,
+        15,
+        16
+      ]
+    },
+    "evidencePoints": {
+      "marketDemand": [
+        "Less than 0.1% of German population familiar with idli",
+        "Growing interest in plant-based breakfast options",
+        "Increasing Indian diaspora in major German cities"
+      ],
+      "competitiveIntensity": [
+        "Few authentic South Indian restaurants in most German cities",
+        "High restaurant density in target markets",
+        "Strong breakfast culture with established preferences"
+      ],
+      "technicalFeasibility": [
+        "Standard restaurant equipment readily available",
+        "Some specialty ingredients available through Indian importers",
+        "Established food safety protocols can be followed"
+      ],
+      "monetizationClarity": [
+        "Average breakfast spend in Germany €8-12",
+        "Restaurant operational costs 60-70% of revenue",
+        "Limited pricing power for unfamiliar cuisine"
+      ],
+      "founderFit": [
+        "Restaurant management experience required",
+        "German language proficiency needed",
+        "Local market knowledge essential"
+      ],
+      "timing": [
+        "Growing interest in international cuisine",
+        "Current economic slowdown affecting dining out",
+        "Rising operational costs in Germany"
+      ]
+    }
+  },
+  "idea": "idli shop in Germany ",
+  "timestamp": "2026-03-26T12:29:14.076Z"
+}

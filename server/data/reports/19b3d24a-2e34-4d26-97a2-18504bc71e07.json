@@ -1,0 +1,137 @@
+{
+  "id": "19b3d24a-2e34-4d26-97a2-18504bc71e07",
+  "data": {
+    "overallScore": 25,
+    "marketDemandScore": 85,
+    "competitiveScore": 15,
+    "feasibilityScore": 30,
+    "monetizationScore": 40,
+    "founderFitScore": 20,
+    "timingScore": 35,
+    "executiveSummary": "An AI-enhanced grocery delivery service enters a massive but brutally competitive market dominated by well-funded players (Instacart: $39B valuation, Walmart, Amazon Fresh). The logistics and retail partnerships required make this nearly impossible for a solo founder. Verdict: No-go - the capital requirements and established players make this unfeasible without $50M+ in funding.",
+    "pivotSuggestions": [
+      "B2B SaaS platform for optimizing existing grocery delivery operations",
+      "Niche focus on specialty ethnic groceries not served by major platforms",
+      "Last-mile delivery optimization software for existing grocery chains"
+    ],
+    "avgSubscriptionPrice": "$99/year + 15% markup (based on Instacart Express model)",
+    "opportunities": [
+      "Integration with meal planning apps for automatic grocery fulfillment",
+      "Focus on reducing food waste through AI-powered inventory prediction",
+      "Specialization in fresh produce quality assessment via computer vision",
+      "Partnership with local farmers markets for premium organic delivery",
+      "White-label solution for independent grocery chains"
+    ],
+    "risks": [
+      "Requires massive capital for customer acquisition ($200+ CAC in urban markets)",
+      "Complex logistics network needs significant upfront investment ($10M+)",
+      "Razor-thin margins (2-4%) in grocery industry limit profitability",
+      "Instacart and Amazon can easily copy any AI innovations",
+      "Extremely high churn rate (60%+ annually) in grocery delivery sector"
+    ],
+    "regulatoryAndAiRisk": {
+      "complianceBurden": "Medium - Food safety and transportation regulations",
+      "aiTakeoverRisk": "High - Major players already implementing AI solutions",
+      "details": "Instacart's acquisition of Caper AI and internal ML team gives them insurmountable AI advantage in this space."
+    },
+    "competitors": [
+      {
+        "name": "Instacart",
+        "estimatedDA": 89,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "High fees and markups causing customer complaints",
+        "featureGaps": [
+          "Real-time produce quality verification",
+          "Automated meal planning"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "Amazon Fresh",
+        "estimatedDA": 95,
+        "trafficTier": "High",
+        "pricingModel": "Paid",
+        "keyWeakness": "Limited market coverage outside major metros",
+        "featureGaps": [
+          "Same-day delivery in smaller markets",
+          "Local store integration"
+        ],
+        "threatLevel": "High"
+      }
+    ],
+    "dimensionExplanations": {
+      "marketDemand": "Grocery delivery is a massive market ($100B+ TAM) with proven willingness to pay, but customer acquisition costs are prohibitive for new entrants.",
+      "competitiveIntensity": "Market is dominated by well-funded players with massive scale advantages and existing retail partnerships.",
+      "technicalFeasibility": "Building the logistics platform, driver network, and retail integrations requires significant engineering resources and time.",
+      "monetizationClarity": "Standard industry model exists but requires massive scale to achieve profitability due to thin margins.",
+      "founderFit": "Solo technical founder lacks the operational experience and industry connections needed for grocery/retail partnerships.",
+      "timing": "Market is already mature with established leaders; AI advantages would be quickly copied."
+    },
+    "opportunityGapSummary": "The only viable entry point would be targeting underserved niches (ethnic groceries, specialty diets) or providing B2B technology to existing players rather than competing directly in the consumer space.",
+    "keyMetrics": {
+      "monthlySearchVolume": "1.2M",
+      "numCompetitors": 8,
+      "avgCompetitorDA": 75,
+      "trendDirection": "→ Stagnant",
+      "timeToMVP": "12 months"
+    },
+    "marketSizing": {
+      "tam": "$200B",
+      "sam": "$50B",
+      "som": "$100M",
+      "sourceLogic": "Based on current US grocery delivery market size ($200B), assuming 25% serviceable by new players, with realistic 0.2% capture potential."
+    },
+    "trendRadar": {
+      "status": "Plateauing",
+      "monthlyData": [
+        85,
+        82,
+        80,
+        78,
+        75,
+        76,
+        74,
+        75,
+        73,
+        72,
+        70,
+        71
+      ]
+    },
+    "evidencePoints": {
+      "marketDemand": [
+        "37% of US households used grocery delivery in 2022",
+        "Average order value $125",
+        "Market grew 53% during pandemic"
+      ],
+      "competitiveIntensity": [
+        "Instacart holds 65% market share",
+        "$39B latest valuation",
+        "8+ well-funded competitors"
+      ],
+      "technicalFeasibility": [
+        "Requires complex routing algorithms",
+        "Real-time inventory sync with stores",
+        "Driver app + consumer app development"
+      ],
+      "monetizationClarity": [
+        "Industry standard 15% markup",
+        "$99/year subscription model proven",
+        "2-4% net margins at scale"
+      ],
+      "founderFit": [
+        "Requires retail partnership experience",
+        "Operations background crucial",
+        "Large team needed for 24/7 support"
+      ],
+      "timing": [
+        "Market maturity post-pandemic",
+        "AI features easily replicable",
+        "Funding environment challenging"
+      ]
+    }
+  },
+  "idea": "AI-powered grocery delivery",
+  "timestamp": "2026-03-26T12:02:02.701Z"
+}

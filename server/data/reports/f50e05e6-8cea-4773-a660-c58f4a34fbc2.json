@@ -1,0 +1,149 @@
+{
+  "id": "f50e05e6-8cea-4773-a660-c58f4a34fbc2",
+  "data": {
+    "overallScore": 35,
+    "marketDemandScore": 65,
+    "competitiveScore": 20,
+    "feasibilityScore": 30,
+    "monetizationScore": 45,
+    "founderFitScore": 40,
+    "timingScore": 60,
+    "executiveSummary": "While creator analytics is a growing market with clear demand, this space is already saturated with both established players (Dash Hudson, Later) and TikTok's native analytics. The key technical barrier is reliable data access through TikTok's API limitations, and CAC would be prohibitively high. Verdict: No-go without significant differentiation.",
+    "pivotSuggestions": [
+      "Focus on specific vertical (e.g., ecommerce brands) with custom metrics",
+      "Build AI-powered content repurposing tool instead of pure analytics",
+      "Pivot to cross-platform comparison analytics for enterprise brands"
+    ],
+    "avgSubscriptionPrice": "$29/mo",
+    "opportunities": [
+      "Build integration with Shopify for direct ROI tracking",
+      "Focus on competitive intelligence angle vs pure analytics",
+      "Target agencies managing multiple accounts with bulk features",
+      "Develop predictive virality scoring using ML",
+      "Create automated content briefs based on trend analysis"
+    ],
+    "risks": [
+      "TikTok API limitations and potential shutdown of access",
+      "High CAC due to crowded market and expensive social ads",
+      "TikTok could expand native analytics making tool redundant",
+      "Race to bottom on pricing due to numerous competitors",
+      "High churn risk as creators test multiple tools"
+    ],
+    "regulatoryAndAiRisk": {
+      "complianceBurden": "Medium - Data privacy concerns",
+      "aiTakeoverRisk": "High - Native platforms likely to add AI recommendations",
+      "details": "TikTok could restrict API access or implement similar AI-driven recommendations natively, rendering third-party tools obsolete."
+    },
+    "competitors": [
+      {
+        "name": "Dash Hudson",
+        "estimatedDA": 65,
+        "trafficTier": "Medium",
+        "pricingModel": "Paid",
+        "keyWeakness": "Expensive enterprise pricing excludes small creators",
+        "featureGaps": [
+          "Real-time trend detection",
+          "Automated content recommendations"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "Later",
+        "estimatedDA": 78,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Limited TikTok-specific features",
+        "featureGaps": [
+          "Advanced TikTok analytics",
+          "Competitive analysis"
+        ],
+        "threatLevel": "Medium"
+      },
+      {
+        "name": "TikTok Native Analytics",
+        "estimatedDA": 100,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Basic metrics only, no recommendations",
+        "featureGaps": [
+          "Cross-account comparison",
+          "Predictive analytics"
+        ],
+        "threatLevel": "High"
+      }
+    ],
+    "dimensionExplanations": {
+      "marketDemand": "Creator economy is booming with clear willingness to pay for analytics, but market is approaching saturation. TikTok's explosive growth drives demand, yet most creators start with free tools.",
+      "competitiveIntensity": "Extremely crowded space with enterprise players, established SMB tools, and TikTok's native analytics. Differentiation is difficult and expensive to communicate.",
+      "technicalFeasibility": "TikTok's API limitations make reliable data access challenging. ML recommendations require significant data science expertise and training data.",
+      "monetizationClarity": "Clear subscription model but price sensitivity is high among creators. Enterprise segment requires expensive sales team.",
+      "founderFit": "Requires strong data science background for recommendations engine and social media marketing expertise for distribution.",
+      "timing": "Market maturity suggests opportunity window is closing, though AI capabilities create new possibilities for differentiation."
+    },
+    "opportunityGapSummary": "Focus on predictive analytics and AI-driven recommendations, targeting enterprise brands and agencies rather than individual creators. Differentiate through cross-platform insights and ROI tracking.",
+    "keyMetrics": {
+      "monthlySearchVolume": "8.5K",
+      "numCompetitors": 15,
+      "avgCompetitorDA": 55,
+      "trendDirection": "→ Stagnant",
+      "timeToMVP": "4 months"
+    },
+    "marketSizing": {
+      "tam": "$2B",
+      "sam": "$500M",
+      "som": "$5M",
+      "sourceLogic": "Based on number of business TikTok accounts (5M) × average analytics tool spend ($400/year) with realistic market capture."
+    },
+    "trendRadar": {
+      "status": "Plateauing",
+      "monthlyData": [
+        65,
+        68,
+        72,
+        75,
+        78,
+        80,
+        82,
+        81,
+        80,
+        79,
+        78,
+        77
+      ]
+    },
+    "evidencePoints": {
+      "marketDemand": [
+        "1.5M+ business accounts on TikTok",
+        "47% of creators use third-party analytics tools",
+        "Growing ad spend on TikTok indicates business focus"
+      ],
+      "competitiveIntensity": [
+        "15+ established analytics providers",
+        "Recent funding rounds for competitors >$50M",
+        "Decreasing CPCs in social media tools advertising"
+      ],
+      "technicalFeasibility": [
+        "TikTok API rate limits of 2000 calls/day",
+        "Required ML infrastructure for recommendations",
+        "Complex data processing requirements"
+      ],
+      "monetizationClarity": [
+        "Market standard pricing $29-99/mo",
+        "60% of creators use free tools only",
+        "Enterprise deals average $15K/year"
+      ],
+      "founderFit": [
+        "Need for ML expertise",
+        "Social media marketing knowledge required",
+        "Enterprise sales experience needed"
+      ],
+      "timing": [
+        "TikTok shop integration rollout",
+        "Rising AI capability expectations",
+        "Market maturity indicators"
+      ]
+    }
+  },
+  "idea": "Create an app that analyzes TikTok accounts to surface content performance and posting recommendations. Context: Web-based creator analytics.",
+  "timestamp": "2026-03-27T09:15:24.470Z"
+}

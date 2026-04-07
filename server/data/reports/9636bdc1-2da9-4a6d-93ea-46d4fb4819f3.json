@@ -1,0 +1,137 @@
+{
+  "id": "9636bdc1-2da9-4a6d-93ea-46d4fb4819f3",
+  "data": {
+    "overallScore": 25,
+    "marketDemandScore": 85,
+    "competitiveScore": 15,
+    "feasibilityScore": 20,
+    "monetizationScore": 30,
+    "founderFitScore": 15,
+    "timingScore": 40,
+    "executiveSummary": "A symptom checker app faces overwhelming competition from WebMD, Mayo Clinic, K Health, and Ada Health, plus liability concerns that make this nearly impossible for a solo founder. The core value proposition isn't differentiated, and the regulatory/liability barriers are extreme. Verdict: No-go.",
+    "pivotSuggestions": [
+      "Focus on niche condition-specific symptom tracking (e.g., Long COVID, chronic pain)",
+      "Build B2B symptom assessment tools for medical practices",
+      "Create condition-specific communities with symptom journaling"
+    ],
+    "avgSubscriptionPrice": "$0 (Most symptom checkers are free, sponsored by ads or healthcare providers)",
+    "opportunities": [
+      "Integration with wearables data for more accurate assessments",
+      "Focus on underserved international markets with localized content",
+      "Partner with telemedicine providers for direct referrals",
+      "Build API for healthcare providers to white-label",
+      "Specialize in pediatric symptom assessment"
+    ],
+    "risks": [
+      "Massive medical liability exposure requires expensive insurance and legal counsel",
+      "WebMD has 127M monthly visitors and dominates SEO",
+      "Ada Health has raised $189.5M and has sophisticated AI",
+      "Extremely high CAC in healthcare space ($50-200+ per user)",
+      "Risk of serious medical consequences from incorrect advice"
+    ],
+    "regulatoryAndAiRisk": {
+      "complianceBurden": "High - FDA clearance likely required, HIPAA compliance mandatory",
+      "aiTakeoverRisk": "High - Major AI companies and WebMD already incorporating advanced symptom checking",
+      "details": "FDA considers symptom checkers as medical devices requiring clearance, while AI leaders like Google Health and Microsoft are heavily investing in this space."
+    },
+    "competitors": [
+      {
+        "name": "WebMD Symptom Checker",
+        "estimatedDA": 92,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Overly broad results causing anxiety",
+        "featureGaps": [
+          "Poor mobile experience",
+          "No integration with health records"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "Ada Health",
+        "estimatedDA": 76,
+        "trafficTier": "Medium",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Limited availability in some regions",
+        "featureGaps": [
+          "No real-time doctor consultation",
+          "Limited language support"
+        ],
+        "threatLevel": "High"
+      }
+    ],
+    "dimensionExplanations": {
+      "marketDemand": "Health symptom search is massive with billions of annual queries. Users actively seek this information and have high intent, but expect it for free.",
+      "competitiveIntensity": "Extremely crowded space with well-funded players, established brands, and sophisticated AI. WebMD alone has over 127M monthly visitors.",
+      "technicalFeasibility": "Building a reliable symptom checker requires extensive medical knowledge base, complex decision trees, and significant liability protection.",
+      "monetizationClarity": "Most users expect this service for free. Ad revenue is dominated by WebMD, and subscription models face resistance.",
+      "founderFit": "Solo developer lacks medical expertise, legal resources, and brand authority needed in healthcare space.",
+      "timing": "Market is mature and dominated by established players with sophisticated AI solutions already deployed."
+    },
+    "opportunityGapSummary": "The only viable entry point would be to focus on an underserved niche condition or demographic, build strong partnerships with healthcare providers, and avoid general symptom checking entirely.",
+    "keyMetrics": {
+      "monthlySearchVolume": "2.4M for 'symptom checker'",
+      "numCompetitors": 15,
+      "avgCompetitorDA": 65,
+      "trendDirection": "→ Stagnant",
+      "timeToMVP": "6-8 months"
+    },
+    "marketSizing": {
+      "tam": "$11.4B",
+      "sam": "$2.8B",
+      "som": "$5M",
+      "sourceLogic": "Based on digital health symptom assessment market size reports and realistic capture of niche market segment."
+    },
+    "trendRadar": {
+      "status": "Plateauing",
+      "monthlyData": [
+        75,
+        78,
+        80,
+        82,
+        79,
+        77,
+        76,
+        75,
+        74,
+        73,
+        75,
+        74
+      ]
+    },
+    "evidencePoints": {
+      "marketDemand": [
+        "80% of adults search for health information online",
+        "2.4M monthly searches for 'symptom checker'",
+        "47% increase in digital health usage since 2020"
+      ],
+      "competitiveIntensity": [
+        "WebMD: 127M monthly visitors",
+        "Ada Health: $189.5M in funding",
+        "K Health valued at $1.5B"
+      ],
+      "technicalFeasibility": [
+        "Required medical knowledge base: 10,000+ conditions",
+        "Complex decision tree logic needed",
+        "High accuracy requirements (95%+)"
+      ],
+      "monetizationClarity": [
+        "Most symptom checkers are free",
+        "Healthcare CAC: $50-200+",
+        "Limited willingness to pay"
+      ],
+      "founderFit": [
+        "No medical expertise",
+        "Limited legal resources",
+        "No healthcare industry connections"
+      ],
+      "timing": [
+        "Market maturity: Late stage",
+        "AI solutions already deployed",
+        "Established brand dominance"
+      ]
+    }
+  },
+  "idea": "Create an app that analyzes user-reported symptoms and provides possible conditions and recommended care steps. Context: Consumer health self-assessment and guidance. ",
+  "timestamp": "2026-03-26T12:21:26.648Z"
+}

@@ -1,0 +1,149 @@
+{
+  "id": "83850cda-4219-4205-87bd-00dab6d0627a",
+  "data": {
+    "overallScore": 35,
+    "marketDemandScore": 75,
+    "competitiveScore": 15,
+    "feasibilityScore": 30,
+    "monetizationScore": 25,
+    "founderFitScore": 20,
+    "timingScore": 45,
+    "executiveSummary": "A symptom checker app enters an oversaturated market dominated by WebMD, Mayo Clinic, and Ada Health, with significant regulatory and liability concerns. The core value proposition lacks differentiation, and the primary distribution channels (App Store/Play Store) are extremely expensive for healthcare keywords. Verdict: No-go - the barriers to entry and user acquisition costs are prohibitive.",
+    "pivotSuggestions": [
+      "Focus on specific chronic condition management with integration into existing EHR systems",
+      "Build for enterprise health systems as a pre-visit triage tool",
+      "Target niche demographics (e.g., pediatric symptom assessment for parents)"
+    ],
+    "avgSubscriptionPrice": "$4.99/mo",
+    "opportunities": [
+      "Integration with telemedicine providers for direct handoff of symptom data",
+      "Partner with pharmacy chains for medication guidance and inventory checking",
+      "Build API for integration with health insurance apps for pre-authorization",
+      "Develop corporate wellness program white-label version",
+      "Create specialized versions for university health centers"
+    ],
+    "risks": [
+      "Extremely high user acquisition costs ($50+ CAC) due to competitive medical keywords",
+      "Significant liability risk from incorrect assessments requiring expensive insurance",
+      "Major players (Apple Health, Google Health) could easily replicate features",
+      "Medical content requires constant expensive updates and expert review",
+      "Users typically only need symptom checkers occasionally, leading to high churn"
+    ],
+    "regulatoryAndAiRisk": {
+      "complianceBurden": "High - HIPAA/CE marking/FDA clearance required",
+      "aiTakeoverRisk": "High - Major health platforms will integrate this natively",
+      "details": "Medical diagnosis assistance requires FDA clearance as a Class II medical device, while AI platforms like GPT-4 are rapidly advancing in medical knowledge."
+    },
+    "competitors": [
+      {
+        "name": "WebMD Symptom Checker",
+        "estimatedDA": 92,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Overly broad results leading to anxiety (dubbed 'cyberchondria')",
+        "featureGaps": [
+          "No real-time doctor connection",
+          "Limited personalization"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "Ada Health",
+        "estimatedDA": 78,
+        "trafficTier": "Medium",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Limited integration with healthcare providers",
+        "featureGaps": [
+          "No prescription services",
+          "Limited language support"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "K Health",
+        "estimatedDA": 82,
+        "trafficTier": "High",
+        "pricingModel": "Paid",
+        "keyWeakness": "Higher cost structure due to doctor network",
+        "featureGaps": [
+          "Limited insurance integration",
+          "US-only service"
+        ],
+        "threatLevel": "High"
+      }
+    ],
+    "dimensionExplanations": {
+      "marketDemand": "Health symptom searches are consistently high volume, with over 1B annual searches. However, users expect this information to be free and accessible, making monetization challenging.",
+      "competitiveIntensity": "The space is dominated by well-funded players with massive content libraries and established brand trust. New entrants face overwhelming SEO and brand authority obstacles.",
+      "technicalFeasibility": "Building a reliable symptom checker requires extensive medical knowledge base development, ML model training, and continuous medical review. Integration with health systems adds significant complexity.",
+      "monetizationClarity": "Direct consumer monetization is difficult due to free alternatives. Enterprise sales to healthcare providers is possible but requires extensive compliance and integration work.",
+      "founderFit": "A solo developer lacks the medical expertise, regulatory knowledge, and healthcare industry relationships needed to compete effectively.",
+      "timing": "While digital health is growing, symptom checking is a mature space with established players. No clear technological or regulatory catalyst for disruption."
+    },
+    "opportunityGapSummary": "The only viable entry point would be focusing on an underserved niche condition or demographic, building deep integration with existing healthcare providers, and avoiding direct competition with major symptom checkers.",
+    "keyMetrics": {
+      "monthlySearchVolume": "8.2M",
+      "numCompetitors": 15,
+      "avgCompetitorDA": 75,
+      "trendDirection": "→ Stagnant",
+      "timeToMVP": "6 months"
+    },
+    "marketSizing": {
+      "tam": "$18B",
+      "sam": "$2B",
+      "som": "$20M",
+      "sourceLogic": "Based on digital health app market size, percentage of users willing to pay for health apps, and realistic market capture given competition."
+    },
+    "trendRadar": {
+      "status": "Plateauing",
+      "monthlyData": [
+        85,
+        82,
+        88,
+        86,
+        84,
+        83,
+        85,
+        87,
+        84,
+        82,
+        83,
+        85
+      ]
+    },
+    "evidencePoints": {
+      "marketDemand": [
+        "70% of adults search symptoms online before seeing doctor",
+        "1B+ annual health-related Google searches",
+        "47% increase in digital health app usage since 2019"
+      ],
+      "competitiveIntensity": [
+        "WebMD receives 75M+ monthly visitors",
+        "Ada Health raised $190M+ in funding",
+        "Apple Health app pre-installed on 1B+ devices"
+      ],
+      "technicalFeasibility": [
+        "Medical knowledge base requires 50K+ symptom-condition relationships",
+        "Natural language processing for symptom description adds complexity",
+        "Real-time integration with EHR systems requires extensive certification"
+      ],
+      "monetizationClarity": [
+        "Average health app subscription is $4.99/month",
+        "Medical app CAC ranges from $30-80",
+        "75% of health apps are free with ads"
+      ],
+      "founderFit": [
+        "Medical content requires licensed professional oversight",
+        "Healthcare sales cycles average 12-18 months",
+        "Regulatory compliance requires dedicated legal expertise"
+      ],
+      "timing": [
+        "Symptom checker apps peaked in 2020-2021",
+        "Major platforms increasing health features",
+        "AI making generalist medical advice commoditized"
+      ]
+    }
+  },
+  "idea": "Create an app that analyzes user-reported symptoms and provides possible conditions and recommended care steps. Context: Consumer health self-assessment and guidance. ",
+  "timestamp": "2026-03-26T11:52:45.151Z"
+}

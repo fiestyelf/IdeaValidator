@@ -1,0 +1,152 @@
+{
+  "id": "c970d0c9-6ec4-4325-8162-71c04b36e113",
+  "data": {
+    "overallScore": 35,
+    "marketDemandScore": 65,
+    "competitiveScore": 20,
+    "feasibilityScore": 45,
+    "monetizationScore": 60,
+    "founderFitScore": 40,
+    "timingScore": 30,
+    "executiveSummary": "Generic AI-powered project management enters an oversaturated market dominated by well-funded incumbents (Asana, Monday, ClickUp) who are rapidly adding AI features. Without a specific vertical focus or unique distribution angle, CAC would be prohibitively expensive. Verdict: No-go - needs dramatic repositioning.",
+    "pivotSuggestions": [
+      "AI project management specifically for game development studios with asset/pipeline automation",
+      "Construction-focused PM tool with AI safety compliance and resource optimization",
+      "Specialized PM tool for research labs with grant tracking and publication workflows"
+    ],
+    "avgSubscriptionPrice": "$15/user/mo",
+    "opportunities": [
+      "Deep API integration with Unity/Unreal for game dev workflow automation",
+      "Compliance-focused features for regulated industries (FDA, ISO, etc.)",
+      "Research institution bulk licensing with grant management features",
+      "Git integration for automated technical dependency tracking",
+      "Specialized agile templates for hardware development teams"
+    ],
+    "risks": [
+      "Monday.com spent $136M on sales/marketing in 2021 - impossible to compete in general PM space",
+      "Major players already integrating OpenAI - no sustainable AI differentiation",
+      "Enterprise sales cycles of 6-12 months with high touch demos/support",
+      "High churn risk as teams resist changing established PM tools",
+      "Feature parity requires 12+ months while incumbents continue innovating"
+    ],
+    "regulatoryAndAiRisk": {
+      "complianceBurden": "Medium - SOC2 required for enterprise",
+      "aiTakeoverRisk": "High - OpenAI could enable all incumbents equally",
+      "details": "AI features will rapidly commoditize as OpenAI and Claude improve their project management capabilities and integrate with existing tools."
+    },
+    "competitors": [
+      {
+        "name": "Monday.com",
+        "estimatedDA": 89,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Complex interface with steep learning curve reported by SMB users",
+        "featureGaps": [
+          "Specialized workflow templates",
+          "Git/DevOps integration",
+          "ML-powered resource allocation"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "ClickUp",
+        "estimatedDA": 85,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Performance issues with large projects and multiple integrations",
+        "featureGaps": [
+          "Advanced automation rules",
+          "Custom reporting",
+          "Predictive analytics"
+        ],
+        "threatLevel": "High"
+      },
+      {
+        "name": "Asana",
+        "estimatedDA": 91,
+        "trafficTier": "High",
+        "pricingModel": "Freemium",
+        "keyWeakness": "Limited customization options for enterprise workflows",
+        "featureGaps": [
+          "AI-powered suggestions",
+          "Complex dependency management",
+          "Resource forecasting"
+        ],
+        "threatLevel": "High"
+      }
+    ],
+    "dimensionExplanations": {
+      "marketDemand": "Project management is a universal need with proven willingness to pay, but market is approaching saturation. New entrants need specific vertical focus to justify switching costs.",
+      "competitiveIntensity": "Extremely competitive with well-funded incumbents (Monday.com $11.3B, Asana $4.2B market cap) who have massive distribution advantages and are rapidly adding AI features.",
+      "technicalFeasibility": "Basic PM features are straightforward, but achieving feature parity with incumbents requires significant development time. AI features need extensive training data.",
+      "monetizationClarity": "Clear subscription model with established price points, but high CAC and competitive pressure limit margins. Enterprise sales require significant resources.",
+      "founderFit": "Building a competitive PM tool requires large team and significant capital. Solo founder would struggle with development scope and enterprise sales requirements.",
+      "timing": "Late to market as AI features are already being integrated by major players. No clear technological or regulatory catalyst for disruption."
+    },
+    "opportunityGapSummary": "Success requires targeting underserved vertical-specific workflows where incumbents are too horizontal. Focus on deep integration with industry-specific tools and compliance requirements that justify switching costs.",
+    "keyMetrics": {
+      "monthlySearchVolume": "246K",
+      "numCompetitors": 15,
+      "avgCompetitorDA": 75,
+      "trendDirection": "→ Stagnant",
+      "timeToMVP": "6 months"
+    },
+    "marketSizing": {
+      "tam": "$25B",
+      "sam": "$5B",
+      "som": "$50M",
+      "sourceLogic": "TAM based on project management software market size 2023, SAM focused on mid-market segment, SOM assumes 1% capture of target verticals."
+    },
+    "trendRadar": {
+      "status": "Plateauing",
+      "monthlyData": [
+        85,
+        82,
+        88,
+        86,
+        84,
+        85,
+        83,
+        85,
+        86,
+        84,
+        85,
+        83
+      ]
+    },
+    "evidencePoints": {
+      "marketDemand": [
+        "Project management software market growing at 10.8% CAGR",
+        "86% of companies use some form of PM software",
+        "Average enterprise uses 3.3 different PM tools"
+      ],
+      "competitiveIntensity": [
+        "Monday.com spent $136M on marketing in 2021",
+        "ClickUp raised $400M Series C in 2021",
+        "Major players adding AI features via OpenAI integration"
+      ],
+      "technicalFeasibility": [
+        "Basic PM features require 3-4 months development",
+        "AI integration available via APIs but needs training data",
+        "Enterprise features add 6-8 months development time"
+      ],
+      "monetizationClarity": [
+        "Industry standard $15-25 per user/month",
+        "Enterprise deals average $25K-100K annually",
+        "CAC often exceeds $1000 for mid-market customers"
+      ],
+      "founderFit": [
+        "Requires enterprise sales experience",
+        "Need team of 5+ for competitive feature set",
+        "Complex technical architecture beyond solo capability"
+      ],
+      "timing": [
+        "Major players already implementing AI features",
+        "No significant platform shift underway",
+        "Market consolidating around established leaders"
+      ]
+    }
+  },
+  "idea": "AI-powered project management tool",
+  "timestamp": "2026-03-26T12:42:30.426Z"
+}
