@@ -109,19 +109,13 @@ function IsoLayers() {
             strokeWidth="1"
           />
 
-          {/* Center monogram "IV" */}
-          <text
-            x="210" y="82"
-            textAnchor="middle"
-            dominantBaseline="middle"
-            fontFamily="Space Grotesk, sans-serif"
-            fontWeight="700"
-            fontSize="22"
-            fill="white"
-            opacity="0.9"
-          >
-            IV
-          </text>
+          {/* Center logo mark */}
+          <image
+            href="/logo.png"
+            x="195" y="62"
+            width="30" height="30"
+            opacity="0.95"
+          />
 
           {/* Corner accent dots — cyan */}
           <circle cx="124" cy="76" r="3" fill="rgba(167,139,250,0.6)" />
@@ -216,16 +210,12 @@ export default function IdeaInput({ onReport }) {
         <a href="/" style={{ display: 'flex', alignItems: 'center', gap: '0.625rem', textDecoration: 'none' }}>
           {/* Monogram mark — matches Layer9 logo style */}
           <div style={{
-            width: '28px', height: '28px',
-            background: 'var(--white)',
-            borderRadius: '6px',
+            width: '32px', height: '32px',
+            borderRadius: '8px',
+            overflow: 'hidden',
             display: 'flex', alignItems: 'center', justifyContent: 'center'
           }}>
-            <span style={{
-              fontFamily: "'Space Grotesk', sans-serif",
-              fontWeight: 700, fontSize: '14px',
-              color: 'var(--black)', letterSpacing: '-0.05em'
-            }}>IV</span>
+            <img src="/logo.png" alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
           <span style={{
             fontFamily: "'Space Grotesk', sans-serif",
@@ -234,10 +224,6 @@ export default function IdeaInput({ onReport }) {
           }}>IdeaValidator</span>
         </a>
 
-        <div className="l9-badge">
-          <span className="dot-live" />
-          Live analysis
-        </div>
       </nav>
 
       {/* ── Hero ── */}
@@ -295,8 +281,8 @@ export default function IdeaInput({ onReport }) {
             marginBottom: '1.5rem',
           }}
         >
-          Describe your concept and let the engine surface demand signals,
-          competitive gaps, and viability scores — in seconds.
+          Surface demand signals, competitive gaps, and viability scores before
+          you write a single ad — so your budget goes where the market already wants to go.
         </motion.p>
 
         {/* Demo CTA */}
@@ -585,35 +571,93 @@ export default function IdeaInput({ onReport }) {
           </div>
         </motion.div>
 
-        {/* ── Social proof stats ── */}
+        {/* ── Performance marketing context ── */}
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.8 }}
-          style={{
-            display: 'flex',
-            gap: '3rem',
-            marginTop: '3rem',
-            justifyContent: 'center',
-          }}
+          style={{ width: '100%', marginTop: '4rem' }}
         >
-          {[
-            { label: 'Ideas tested', val: '50+' },
-            { label: 'AI Engine', val: 'Claude 3.5' },
-            { label: 'Avg Latency', val: '<12s' },
-          ].map(stat => (
-            <div key={stat.label} style={{ textAlign: 'center' }}>
+          {/* Section label */}
+          <div className="text-label" style={{ marginBottom: '1.25rem', textAlign: 'center' }}>
+            Why validate before spending
+          </div>
+
+          {/* Three ideology cards */}
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1rem', marginBottom: '3rem' }}>
+            {[
+              {
+                icon: '◎',
+                title: 'Spend where demand exists',
+                body: 'Meta and Google ads burn money on weak demand signals. Validate that people actively want your idea before setting a budget or writing a single creative.'
+              },
+              {
+                icon: '⌗',
+                title: 'Sharpen your creative brief',
+                body: 'Understanding competitive gaps and market positioning informs stronger hooks, angles, and copy — the foundation of any high-performing ad campaign.'
+              },
+              {
+                icon: '◈',
+                title: 'Ground SEO in real intent',
+                body: 'GA4 and Search Console show you what people searched. This tool surfaces whether your idea aligns with that intent before you build content or a landing page around it.'
+              },
+            ].map(card => (
+              <div key={card.title} className="l9-card" style={{ padding: '1.5rem', textAlign: 'left' }}>
+                <div style={{
+                  fontSize: '1.25rem',
+                  color: 'var(--cyan)',
+                  marginBottom: '0.875rem',
+                  opacity: 0.8,
+                }}>
+                  {card.icon}
+                </div>
+                <h3 style={{
+                  fontSize: '0.9rem',
+                  fontWeight: 600,
+                  color: 'var(--white)',
+                  marginBottom: '0.625rem',
+                  letterSpacing: '-0.02em',
+                  lineHeight: 1.3,
+                }}>
+                  {card.title}
+                </h3>
+                <p style={{ fontSize: '0.8rem', color: 'var(--gray-5)', lineHeight: 1.65, margin: 0 }}>
+                  {card.body}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* Ideology block */}
+          <div className="l9-card" style={{ padding: '2rem', textAlign: 'left', borderColor: 'rgba(167,139,250,0.12)' }}>
+            <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
               <div style={{
-                fontFamily: "'Space Grotesk', sans-serif",
-                fontSize: '1.375rem', fontWeight: 700,
-                color: 'var(--white)', letterSpacing: '-0.02em',
-                marginBottom: '0.25rem',
-              }}>{stat.val}</div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--gray-5)' }}>
-                {stat.label}
+                flexShrink: 0,
+                width: '36px', height: '36px',
+                background: 'rgba(167,139,250,0.08)',
+                border: '1px solid rgba(167,139,250,0.2)',
+                borderRadius: '8px',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+              }}>
+                <span style={{ fontSize: '14px', color: 'var(--cyan)' }}>↗</span>
+              </div>
+              <div>
+                <h3 style={{
+                  fontSize: '1rem', fontWeight: 600,
+                  color: 'var(--white)', marginBottom: '0.625rem',
+                  letterSpacing: '-0.02em',
+                }}>
+                  The idea behind IdeaValidator
+                </h3>
+                <p style={{ fontSize: '0.875rem', color: 'var(--gray-4)', lineHeight: 1.7, margin: 0 }}>
+                  Performance marketing works best when you're pushing a concept the market already has latent demand for.
+                  IdeaValidator exists to run that check — before you invest in creatives, campaigns, or an SEO strategy.
+                  It pulls competitive signals, demand data, and viability scores through Claude's reasoning engine so you
+                  can make a go / no-go call grounded in evidence, not intuition.
+                </p>
               </div>
             </div>
-          ))}
+          </div>
         </motion.div>
 
       </main>

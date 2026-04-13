@@ -54,16 +54,14 @@ export default function LoadingOverlay({ visible }) {
                   position: 'relative',
                 }}
               >
-                <span style={{
-                  fontFamily: "'Space Grotesk', sans-serif",
-                  fontWeight: 700, fontSize: '20px',
-                  color: 'var(--white)', letterSpacing: '-0.04em',
-                  animation: 'none',
-                  display: 'block',
-                  transform: 'rotate(0deg)',
-                  /* counter-rotate to keep text upright */
-                  willChange: 'transform',
-                }}>IV</span>
+                <div style={{
+                  width: '42px', height: '42px',
+                  borderRadius: '10px',
+                  overflow: 'hidden',
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                }}>
+                  <img src="/logo.png" alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                </div>
                 {/* Rotating ring */}
                 <motion.div
                   animate={{ rotate: -360 }}

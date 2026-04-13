@@ -90,12 +90,12 @@ export default function SidebarNav() {
           }}
         >
           <div style={{
-            width: '26px', height: '26px',
-            background: 'var(--white)',
+            width: '28px', height: '28px',
             borderRadius: '6px',
+            overflow: 'hidden',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
           }}>
-            <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: '12px', color: 'var(--black)', letterSpacing: '-0.05em' }}>IV</span>
+            <img src="/src/assets/logo.png" alt="IdeaValidator Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
           <span style={{ fontSize: '9px', fontWeight: 600, letterSpacing: '0.04em', textTransform: 'uppercase', color: 'var(--gray-5)' }}>
             New
